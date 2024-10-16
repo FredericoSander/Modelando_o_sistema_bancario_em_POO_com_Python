@@ -2,7 +2,7 @@
 
 O sistema reproduzido permite gerenciar contas bancárias, incluindo a criação de clientes e contas, realização de transações como depósitos e saques, e a visualização de extratos. O sistema utiliza programação orientada a objetos (POO) para organizar o código em classes que representam diferentes entidades e funcionalidades. O código ainda demonstra o uso de conceitos fundamentais da POO como herança, polimorfismo e abstração. 
 
-## Funcionamento dos sistema
+## Funcionamento do sistema
 
 O sistema funciona através de um menu interativo no terminal, no qual o usuário pode criar clientes, contas, realizar saques, depósitos e consultar extratos. Inicialmente o usuário necessita criar um novo cliente Pessoa Física. Após a criação do usuário, deve-se criar uma conta corrente associada ao cliente. Finalizada as etapas de criação do usuário e conta, o usuário pode realizar depósitos e saques, que seram registrados no hitórico da conta e ao consultar o extrato, todas as transações realizadas são exibidas.
 

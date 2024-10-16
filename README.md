@@ -13,7 +13,7 @@ O sistema funciona através de um menu interativo no terminal, no qual o usuári
 A Herança permite que uma classe herde atributos e metodos de outra classe. No projeto, temos a classe cliente como classe base e a classe **PessoaFisica** que herda de **Cliente**. Isso significa que PessoaFisica pode reutilizar e especializar os métodos e atributos de **Cliente**.
 
 <div aling="center">
-<img src="">
+<img src="https://github.com/FredericoSander/Modelando_o_sistema_bancario_em_POO_com_Python/blob/main/Imagens/Heran%C3%A7a.png">
 </div>
 
 A classe PessoaFisica herda de cliente e além de reutilizar o construtor de Cliente com **super()** ela adiciona novos atributos como cpf, nome e data_nascimento.
@@ -23,7 +23,7 @@ A classe PessoaFisica herda de cliente e além de reutilizar o construtor de Cli
 Polimorfismo refere-se à capacidade de diferentes classes de fornecerem diferentes implementações de um mesmo método. No projeto, isso é demonstrado pelo método **sacar** das classes **Conta** e **ContaCorrente**.
 
 <div aling="center">
-<img src="">
+<img src="https://github.com/FredericoSander/Modelando_o_sistema_bancario_em_POO_com_Python/blob/main/Imagens/Polimorfismo.png">
 </div>
 
 Embora tanto **Conta** quanto **ContaCorrente** possuam um método sacar, a implementação na **ContaCorrente** é especializada para incluir verificações adicionais, como limite de saques e valores.
@@ -33,7 +33,7 @@ Embora tanto **Conta** quanto **ContaCorrente** possuam um método sacar, a impl
 Abstração se refere à ocultação de detalhes internos e à apresentação de uma interface limpa para o usuário. No projeto, isso é implementado com o uso de classes abstratas através do módulo **abc** (Abstract Base Classes).
 
 <div aling="center">
-<img src="">
+<img src="https://github.com/FredericoSander/Modelando_o_sistema_bancario_em_POO_com_Python/blob/main/Imagens/Abstrata.png">
 </div>
 
 A classe **Transacao** é abstrata, definindo o método abstrato registrar, que deve ser implementado pelas classes concretas **Saque** e **Deposito**. Isso força as subclasses a fornecerem sua própria implementação específica.

@@ -38,15 +38,13 @@ Abstração se refere à ocultação de detalhes internos e à apresentação de
 
 A classe **Transacao** é abstrata, definindo o método abstrato registrar, que deve ser implementado pelas classes concretas **Saque** e **Deposito**. Isso força as subclasses a fornecerem sua própria implementação específica.
 
-## Estrutura do Projeto
+## Estrutura do Projeto e Classes
 
-### Classes
-
-#### Cliente
+### Cliente
 
 A classe cliente representa um cliente genérico do programa. Ela contém um endereço e uma lista de contas associadas ao cliente. A classe possui como atributo o **endereco** do cliente e as **contas** e os métodos  **realizar_transacao** e o método **adicionar_conta**.
 
-#### PessoaFisica
+### PessoaFisica
 
 A classe PessoaFisica representa um PessoaFisica especifica do programa. Ela herda os atributos da classe cliente e adciona atributos especificos para clientes fisicos como **cpf**, **nome** , **data_nascimento** e implementa o método **__str__()** que retorna uma string representando o nome do cliente.
 
